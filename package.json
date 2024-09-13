@@ -1,6 +1,6 @@
 {
   "name": "delink-on-touch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Stop showing context menu when long-pressing a link, enable text selection.",
   "keywords": [
     "userscript",
