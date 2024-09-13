@@ -3,16 +3,17 @@ Delink on Touch
 
 [![.github/workflows/build.yml](https://github.com/eight04/delink-on-touch/actions/workflows/build.yml/badge.svg)](https://github.com/eight04/delink-on-touch/actions/workflows/build.yml)
 
-Stop showing context menu when long-pressing a link, enable text selection.
+This is a userscript for mobile browsers. It disables the context menu when long-pressing a link and enables text selection.
+
+Install
+-------
+
+https://greasyfork.org/zh-TW/scripts/508258-delink-on-touch
 
 Usage
 -------
 
 After installing the script, use the monkey menu to enable/disable the function.
-
-Install
--------
-
 
 Changelog
 ---------
