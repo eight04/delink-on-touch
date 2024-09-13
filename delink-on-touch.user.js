@@ -32,6 +32,7 @@ function init() {
 
   function onTouchStart(e) {
     clearTimeout(timeoutId);
+    // add a delay so users can still tap the link without triggering this
     timeoutId = setTimeout(() => {
       const a = e.target.closest("a");
       if (a && a.getAttribute("href")) {
