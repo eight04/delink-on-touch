@@ -1,0 +1,43 @@
+{
+  "name": "delink-on-touch",
+  "version": "0.0.0",
+  "description": "Stop showing context menu when long-pressing a link, enable text selection.",
+  "keywords": [
+    "userscript",
+    "mobile",
+    "android",
+    "select"
+  ],
+  "homepage": "https://github.com/eight04/delink-on-touch",
+  "bugs": "https://github.com/eight04/delink-on-touch/issues",
+  "license": "MIT",
+  "author": "eight04 <eight04@gmail.com>",
+  "main": "delink-on-touch.user.js",
+  "repository": "eight04/delink-on-touch",
+  "scripts": {
+    "test": "eslint .",
+    "preversion": "npm test",
+    "build": "userscript-meta --update delink-on-touch.user.js",
+    "version": "npm run build && git add .",
+    "postversion": "git push --follow-tags"
+  },
+  "private": true,
+  "devDependencies": {
+    "eslint": "^9.10.0",
+    "userscript-meta-cli": "^0.4.2"
+  },
+  "userscript": {
+    "name": "Delink on Touch",
+    "namespace": "https://github.com/eight04",
+    "match": [
+      "*://*/*"
+    ],
+    "grant": [
+      "GM_registerMenuCommand"
+    ]
+  },
+  "engines": {
+    "violentmonkey": ">=2.15.9",
+    "tampermonkey": ">=4"
+  }
+}
