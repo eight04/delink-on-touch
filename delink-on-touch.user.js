@@ -35,7 +35,7 @@ function init() {
     // add a delay so users can still tap the link without triggering this
     timeoutId = setTimeout(() => {
       const a = e.target.closest("a");
-      if (a && a.getAttribute("href")) {
+      if (a && a.getAttribute("href") && e.target.textContent) {
         links.set(a, a.href);
         a.href = "";
       }
