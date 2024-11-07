@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Delink on Touch
-// @version 0.1.1
+// @version 0.1.2
 // @description Stop showing context menu when long-pressing a link, enable text selection.
 // @homepageURL https://github.com/eight04/delink-on-touch
 // @supportURL https://github.com/eight04/delink-on-touch/issues
