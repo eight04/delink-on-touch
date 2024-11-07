@@ -21,7 +21,7 @@ After installing the script, use the monkey menu to enable/disable the function.
 Changelog
 ---------
 
-* 0.1.1 (Nov 8, 2024)
+* 0.1.2 (Nov 8, 2024)
 
   - Fix: don't trigger on images.
 
